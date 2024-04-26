@@ -8,6 +8,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.devsuperior.bds01.dto.EmployeeDTO;
+
 @Entity
 @Table(name = "tb_employee")
 public class Employee {
